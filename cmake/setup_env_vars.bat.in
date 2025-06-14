@@ -1,0 +1,6 @@
+@echo off
+prompt $
+
+set _vpktoolpath=@VPK_TOOL_PATH_NATIVE@
+set _artifacts_dir=@ARTIFACTS_DIR_NATIVE@
+set _downloads_dir=@DOWNLOADS_DIR_NATIVE@
