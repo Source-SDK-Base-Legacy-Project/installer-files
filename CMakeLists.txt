@@ -115,13 +115,6 @@ FetchContent_Populate(
   SOURCE_DIR   ${DOWNLOADS_DIR}/ExtractVPK/win-x64 # Determine ou extraire les fichiers telecharges
 )
 
-FetchContent_Populate(
-  extractvpk_x86
-  URL https://github.com/Source-SDK-Base-Legacy-Project/ExtractVPK/releases/download/${EXTRACTVPK_VERSION}/ExtractVPK-${EXTRACTVPK_VERSION}-win-x86.zip
-  URL_HASH SHA256=68ef7b4dc90babcbb01abb1bc59bab75a20560dd47e1330b2b04183bec50eb2f
-  SOURCE_DIR   ${DOWNLOADS_DIR}/ExtractVPK/win-x86 # Determine ou extraire les fichiers telecharges
-)
-
 # SteamApps
 
 FetchContent_Populate(
@@ -129,13 +122,6 @@ FetchContent_Populate(
   URL https://github.com/Source-SDK-Base-Legacy-Project/SteamApps/releases/download/${STEAMAPPS_VERSION}/SteamApps-${STEAMAPPS_VERSION}-win-x64.zip
   URL_HASH SHA256=41e6c5dbac337f24c22f0997fdfa69e2db3d05e339acceb2feaab0e3f89a377c
   SOURCE_DIR   ${DOWNLOADS_DIR}/SteamApps/win-x64 # Determine ou extraire les fichiers telecharges
-)
-
-FetchContent_Populate(
-  steamapps_x86
-  URL https://github.com/Source-SDK-Base-Legacy-Project/SteamApps/releases/download/${STEAMAPPS_VERSION}/SteamApps-${STEAMAPPS_VERSION}-win-x86.zip
-  URL_HASH SHA256=2a525c355281e909ec8db7338505d7a053522dee9f61df596a3a4563a4953ca5
-  SOURCE_DIR   ${DOWNLOADS_DIR}/SteamApps/win-x86 # Determine ou extraire les fichiers telecharges
 )
 
 # VPKEditCLI
